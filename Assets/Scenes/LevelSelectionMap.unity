@@ -695,7 +695,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107653938}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.09, y: -0.66, z: 0}
+  m_LocalPosition: {x: 7.32, y: 3.79, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1687,7 +1687,6 @@ GameObject:
   - component: {fileID: 469407157}
   - component: {fileID: 469407156}
   - component: {fileID: 469407160}
-  - component: {fileID: 469407161}
   m_Layer: 0
   m_Name: PE14
   m_TagString: Untagged
@@ -1826,21 +1825,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &469407161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 469407155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59d042072253d11428147ba0d074fa39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LevelName: PixelLevel
-  Fade: 1
-  Save: 1
 --- !u!1 &476259728
 GameObject:
   m_ObjectHideFlags: 0
@@ -2845,7 +2829,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840665269}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.09, y: -2.33, z: 0}
+  m_LocalPosition: {x: 7.3199997, y: 2.12, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3756,10 +3740,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutomaticMovement: 0
-  Up: {fileID: 103790476}
+  Up: {fileID: 809604028}
   Right: {fileID: 809604028}
-  Down: {fileID: 0}
-  Left: {fileID: 1993943139}
+  Down: {fileID: 1937134454}
+  Left: {fileID: 1937134454}
 --- !u!61 &1041346149
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3846,7 +3830,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1041346147}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.49, y: 5.04, z: 0}
+  m_LocalPosition: {x: 4.3, y: 2.6, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5221,7 +5205,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1498227766}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.59, y: -3.05, z: 0}
+  m_LocalPosition: {x: 7.8199997, y: 1.3999999, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5593,10 +5577,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AutomaticMovement: 1
-  Up: {fileID: 0}
-  Right: {fileID: 723941494}
-  Down: {fileID: 179123991}
-  Left: {fileID: 0}
+  Up: {fileID: 179123991}
+  Right: {fileID: 179123991}
+  Down: {fileID: 723941494}
+  Left: {fileID: 723941494}
 --- !u!61 &1688029400
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6479,7 +6463,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1933019256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.59, y: -2.33, z: 0}
+  m_LocalPosition: {x: 7.8199997, y: 2.12, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6631,7 +6615,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1937134453}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.49, y: -3.05, z: 0}
+  m_LocalPosition: {x: 3.48, y: -2.18, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6771,7 +6755,6 @@ GameObject:
   - component: {fileID: 1993943140}
   - component: {fileID: 1993943139}
   - component: {fileID: 1993943143}
-  - component: {fileID: 1993943144}
   m_Layer: 0
   m_Name: PE12
   m_TagString: Untagged
@@ -6910,21 +6893,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1993943144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993943138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59d042072253d11428147ba0d074fa39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LevelName: Mesa1
-  Fade: 1
-  Save: 1
 --- !u!1 &1999445587
 GameObject:
   m_ObjectHideFlags: 0
